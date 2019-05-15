@@ -1,0 +1,32 @@
+$position: 50%;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse; 
+  position: absolute;
+  top: $position;
+  left: $position;
+  transform: translate(-$position, -$position);
+  text-align: center;
+  tr {
+    border: 1px solid black;
+    padding: 5px;
+
+    td {
+      border: 1px solid black;
+      padding: 5px;
+      height: 18px;
+    }
+
+    th {
+      background-color:  rgb(161, 161, 161);
+      padding: 5px;
+      border: 1px solid black;
+    }
+  }
+}
